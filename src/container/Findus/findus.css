@@ -1,0 +1,37 @@
+
+.findus .left{
+    flex:1;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 6rem;
+}
+.findus .left p{
+    min-width: 300px;
+}
+.findus .left h1{
+    white-space: nowrap;
+}
+.findus .right{
+    width: 100%;
+    justify-content: flex-end;
+     align-items: flex-end;
+}
+.findus .right img{
+    width: 80%;
+}
+@media screen and (max-width:650px){
+    .findus .left p{
+        min-width: 200px;
+        margin-top: -1rem;
+    }
+}
+@media screen and (max-width:1150px){
+    .findus{
+        flex-direction: column;
+    }
+    .findus .left{
+        margin-bottom: 100px;
+    }
+}

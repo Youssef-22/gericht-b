@@ -1,0 +1,191 @@
+.special-menu{
+    flex-direction: column;
+    background: var(--color-black);
+}
+.special-menu .special-menu-title{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.special-menu .special-menu-title h1{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;    
+    color: #DCCA87;
+}
+.special-menu .special-menu-menu{
+    display: flex;
+    width: 100%;
+    margin: 2rem 0;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.special-menu .special-menu-menu .wine-section{
+    flex: 1;
+    justify-content: flex-start;
+    justify-content: left;
+    flex-direction: column;
+}
+.special-menu .special-menu-menu .wine-section .special-heading{
+    text-align: center;
+    color: white;
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 4%;
+}
+.special-menu .special-menu-menu .wine-section .wine-items .wine-table{
+   flex-direction: column;
+   margin: 2.2rem 0;
+}
+.special-menu .special-menu-menu .wine-section .wine-items .wine-table .up{
+   justify-content: space-between;
+ }
+ .special-menu .special-menu-menu .wine-section .wine-items .wine-table .up p{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    white-space: nowrap;
+}
+  .special-menu .special-menu-menu .wine-section .wine-items .wine-table .up div{
+    width: 119px;
+    height: 1px;
+    background: var(--color-golden);
+    margin: 0 1rem;
+  }
+  .special-menu .special-menu-menu .wine-section .wine-items .wine-table .up h3{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+  }
+  .special-menu .special-menu-menu .wine-section .wine-items .wine-table .down h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    text-align: left;
+  }
+
+
+.special-menu .special-menu-menu .menu-img{
+    flex: 1;
+    justify-content: center;
+    width: 410px;
+    margin: 0 1rem;
+    
+}
+.special-menu .special-menu-menu .menu-img img{
+    width: 100%;
+height: auto;
+}
+
+.special-menu .special-menu-menu .coctail-section{
+    flex: 1;
+    justify-content: flex-end;
+    justify-content: right;
+    flex-direction: column;
+}
+.special-menu .special-menu-menu .coctail-section .special-heading{
+    text-align: center;
+    color: white;
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 4%;
+}
+.special-menu .special-menu-menu .coctail-section .coctail-items .cocktail-table{
+    flex-direction: column;
+    margin: 2.2rem 0;
+ }
+ .special-menu .special-menu-menu .coctail-section .coctail-items .cocktail-table .up{
+    justify-content: space-between;
+  }
+  .special-menu .special-menu-menu .coctail-section .coctail-items .cocktail-table .up p{
+     font-family: 'Cormorant Upright';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 23px;
+     line-height: 130%;
+     letter-spacing: 0.04em;
+     text-transform: capitalize;
+     font-feature-settings: 'tnum' on, 'lnum' on;
+     color: #DCCA87;
+     white-space: nowrap;
+ }
+   .special-menu .special-menu-menu .coctail-section .coctail-items .cocktail-table .up div{
+     width: 119px;
+     height: 1px;
+     background: var(--color-golden);
+     margin: 0 1rem;
+   }
+   .special-menu .special-menu-menu .coctail-section .coctail-items .cocktail-table .up h3{
+     font-family: 'Cormorant Upright';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 23px;
+     line-height: 130%;
+     text-align: center;
+     letter-spacing: 0.04em;
+     text-transform: capitalize;
+     font-feature-settings: 'tnum' on, 'lnum' on;
+     color: #FFFFFF;
+   }
+   .special-menu .special-menu-menu .coctail-section .coctail-items .cocktail-table .down h3{
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 175%;
+     text-align: center;
+     letter-spacing: 0.04em;
+     color: #AAAAAA;
+     text-align: left;
+   }
+
+   @media screen and (max-width: 2000px){
+    
+   }
+   @media screen and (max-width: 1150px){
+        .special-menu .special-menu-menu{
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+        .special-menu .special-menu-menu .menu-img{
+            margin: 3rem 0;
+        }
+        
+   }
+   @media screen and (max-width: 650px){
+        .special-menu .special-menu-menu .menu-img{
+            width: 100%;
+        }
+        .special-menu .special-menu-menu .wine-section .special-heading{
+            font-size: 35px;
+            line-height: 48px;
+        }
+   }

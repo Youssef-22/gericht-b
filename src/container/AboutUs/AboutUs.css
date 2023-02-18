@@ -1,0 +1,74 @@
+.about{
+    padding: 4rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.about .about-overlay{
+    position: absolute;
+    inset: 0;
+}
+.about .about-overlay img{
+    width: 391px;
+    height: 415px;
+    z-index: 0;
+}
+.about .about-content{
+    width: 100%;
+    z-index: 2;
+}
+.about .about-content .content-about{
+    flex: 1;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+.about .about-content .content-history{
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.about .about-content .content-history p,
+.about .about-content .content-about p
+{
+    margin: 2rem 0;
+    color: var(--color-grey);
+}
+.about .about-content .middle-content{
+    margin: 2rem 4rem;
+}
+.about .about-content .middle-content img{
+    height: 850px;
+}
+@media screen and (max-width:2000px) {
+    .about .about-content .middle-content img{
+       height: 1100px;
+    }
+.about .about-content .content-history p,
+.about .about-content .content-about p
+{
+    margin: 4rem 0;
+}
+
+}
+@media screen and (max-width:900px) {
+    .about .about-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .about .about-content .middle-content{
+        margin: 4rem 0;
+    }
+}
+@media screen and (max-width:650px) {
+    .about .about-overlay img{
+        width: 80%;
+        height: 320px;
+    }
+}

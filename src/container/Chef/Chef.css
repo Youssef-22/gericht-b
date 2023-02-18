@@ -1,0 +1,83 @@
+.chef {
+    display: flex;
+}
+.chef .left{
+    margin: 0 2rem;
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chef .left img{
+    width: 80%;
+}
+.chef .right{
+    flex-direction: column;
+    flex: 1;
+}
+.chef .right h1{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #DCCA87;
+}
+.chef .right .quote{
+    display: flex;
+}
+.chef .right .quote img{
+    width: 47px;
+height: 40px;
+}
+.chef .right .quote p{
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+.chef .right .down h2{
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+    text-align: left;
+}
+.chef .right .down h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+}
+.chef .right .down .sign{
+    width: 235px;
+    height: 83px;
+}
+.chef .right .down{
+    align-items: flex-start;
+}
+@media screen and (max-width:2000px){
+    .chef .right .down .sign{
+        width: 335px;
+        height: 83px;
+    }
+
+}
+@media screen and (max-width:650px){
+    .chef .right .down .sign{
+        width: 80%;
+    }
+}
